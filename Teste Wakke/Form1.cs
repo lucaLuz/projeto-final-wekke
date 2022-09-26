@@ -78,7 +78,6 @@ namespace Teste_Wakke
 
         private void listar_tudo()
         {
-            //Dt_formulario.Rows.Clear();
 
             using (SQLiteConnection con = new SQLiteConnection(@"Data Source=" + path))
             {

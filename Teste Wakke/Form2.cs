@@ -118,66 +118,11 @@ namespace Teste_Wakke
                 }
             }
         }
-        private void Label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Lbl_cnome_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         public void Btn_salvar_Click(object sender, EventArgs e)
         {
             Salvar();
             Close();
-        }
-
-        public void Frm_cadastro_Load(object sender, EventArgs e)
-        {
-
-
-        }
-
-        private void Txd_cid_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-            
-        }
-
-        private void Txt_nome_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Txd_cdata_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-
-        }
-
-        private void Txt_sobrenome_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Txt_altura_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Rb_ativo_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Rb_inativo_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

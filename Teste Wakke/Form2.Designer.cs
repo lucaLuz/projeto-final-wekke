@@ -89,7 +89,6 @@ namespace Teste_Wakke
             this.lbl_sobrenome.Size = new System.Drawing.Size(82, 17);
             this.lbl_sobrenome.TabIndex = 6;
             this.lbl_sobrenome.Text = "Sobrenome";
-            this.lbl_sobrenome.Click += new System.EventHandler(this.Label3_Click);
             // 
             // lbl_data
             // 
@@ -120,7 +119,6 @@ namespace Teste_Wakke
             this.lbl_csituacao.Size = new System.Drawing.Size(65, 17);
             this.lbl_csituacao.TabIndex = 11;
             this.lbl_csituacao.Text = "Situação";
-            this.lbl_csituacao.Click += new System.EventHandler(this.Label6_Click);
             // 
             // rb_ativo
             // 
@@ -132,7 +130,6 @@ namespace Teste_Wakke
             this.rb_ativo.TabStop = true;
             this.rb_ativo.Text = "ativo";
             this.rb_ativo.UseVisualStyleBackColor = true;
-            this.rb_ativo.CheckedChanged += new System.EventHandler(this.Rb_ativo_CheckedChanged);
             // 
             // rb_inativo
             // 
@@ -144,7 +141,6 @@ namespace Teste_Wakke
             this.rb_inativo.TabStop = true;
             this.rb_inativo.Text = "inativo";
             this.rb_inativo.UseVisualStyleBackColor = true;
-            this.rb_inativo.CheckedChanged += new System.EventHandler(this.Rb_inativo_CheckedChanged);
             // 
             // btn_salvar
             // 
@@ -170,7 +166,6 @@ namespace Teste_Wakke
             this.txd_cdata.Size = new System.Drawing.Size(194, 23);
             this.txd_cdata.TabIndex = 15;
             this.txd_cdata.ValidatingType = typeof(System.DateTime);
-            this.txd_cdata.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.Txd_cdata_MaskInputRejected);
             // 
             // txd_id
             // 
@@ -183,7 +178,6 @@ namespace Teste_Wakke
             this.txd_id.Size = new System.Drawing.Size(140, 23);
             this.txd_id.TabIndex = 16;
             this.txd_id.ValidatingType = typeof(int);
-            this.txd_id.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.Txd_cid_MaskInputRejected);
             // 
             // Txt_nome
             // 
@@ -193,7 +187,6 @@ namespace Teste_Wakke
             this.Txt_nome.Name = "Txt_nome";
             this.Txt_nome.Size = new System.Drawing.Size(194, 23);
             this.Txt_nome.TabIndex = 17;
-            this.Txt_nome.TextChanged += new System.EventHandler(this.Txt_nome_TextChanged);
             // 
             // Txt_sobrenome
             // 
@@ -203,7 +196,6 @@ namespace Teste_Wakke
             this.Txt_sobrenome.Name = "Txt_sobrenome";
             this.Txt_sobrenome.Size = new System.Drawing.Size(194, 23);
             this.Txt_sobrenome.TabIndex = 18;
-            this.Txt_sobrenome.TextChanged += new System.EventHandler(this.Txt_sobrenome_TextChanged);
             // 
             // Txt_altura
             // 
@@ -213,7 +205,6 @@ namespace Teste_Wakke
             this.Txt_altura.Name = "Txt_altura";
             this.Txt_altura.Size = new System.Drawing.Size(194, 23);
             this.Txt_altura.TabIndex = 19;
-            this.Txt_altura.TextChanged += new System.EventHandler(this.Txt_altura_TextChanged);
             // 
             // frm_cadastro
             // 
@@ -243,7 +234,6 @@ namespace Teste_Wakke
             this.Name = "frm_cadastro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro";
-            this.Load += new System.EventHandler(this.Frm_cadastro_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
